@@ -1,7 +1,7 @@
 <h1 align="center"> BlogIN </h1> <br>
 <p align="center">
   <a href="https://github.com/be1997s/FinalProject">
-    <img alt="BlogIN" title="BlogIN" src="Icon-172.png" width="450">
+    <img alt="BlogIN" title="BlogIN" src="screenshots/Icon-172.png" width="200">
   </a>
 </p>
 
@@ -16,19 +16,19 @@
 - [Authorizing](#authorizing)
 - [Home](#home)
 - [Tags](#tags)
-- [Add Post](#addPost)
-- [Save Posts](#saved)
+- [Add Post](#add-post)
+- [Save Posts](#save-posts)
 - [profile](#profile)
-- [used libraries](#usedlibraries)
+- [used libraries](#used-libraries)
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
 BlogIN is an iOS application created using Swift 5, it works on iPhone devices, <a href="https://dummyapi.io/">Dummy Api </a> used to create this app, but it is not a real API.</br>
 The application was created using blue, purple, and pink themes. 
- 
+  </br>
 <p align="center">
-  <img src = "main.png" width=350>
+  <img src = "screenshots/main.png" width=800>
 </p>
 
 ## Features
@@ -44,49 +44,38 @@ A few of the things you can do with  BlogIN:
 * Edit your information.
 
 ## Authorizing
+
 The application allows registration or login if you are registered, but if you want not to, you can only browse the posts and tags.
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.31.37_iphone12black_portrait" width=350>
-</p>
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.31.58_iphone12black_portrait" width=350>
-</p>
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.31.53_iphone12black_portrait" width=350>
-</p>
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.35.10_iphone12black_portrait" width=350>
-</p>
+ </br>
+<p align="center">
+  
+  <img src = "screenshots/authpng.png" width=800>
+
+
 
 ## Home
 On the home page, posts are displayed according to the latest, and you can review the post or the information of the owner of the post, you can also put a comment, or press the save button to save the post.
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.32.27_iphone12black_portrait" width=350>
-</p>
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.32.27_iphone12black_portrait" width=350>
-</p>
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.32.27_iphone12black_portrait" width=350>
-</p>
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.32.27_iphone12black_portrait" width=350>
-</p>
+   </br>
+<p align="center">
+  <img src = "screenshots/home.png" width=800>
+
 
 ## Tags
 User can show all tags and posts for each tag or search for a specific tag.
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.32.30_iphone12black_portrait" width=350>
-</p>
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.32.36_iphone12black_portrait" width=350>
-</p>
+ </br>
+<p align="center">
+  <img src = "screenshots/tagspng.png" width=800>
+
+
 
 ## Add Post
+  
 The registered user can add a post containing an image, text and tags.
+ </br>
+ 
+<p align="center">
 
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.33.13_iphone12black_portrait" width=350>
+  <img src = "screenshots/add.png" width=800>
 </p>
 
 The used Api does not support uploading images, so I used here to Firebase storage to upload image from iphone gallery and return the download link.
@@ -118,7 +107,9 @@ self.storage.child("images/\(name).png").putData(imageData, metadata: nil) {_, e
 ## Save Posts
 The registered user can save posts and show them on the saved posts screen.
 <p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.33.38_iphone12black_portrait" width=350>
+   </br>
+<p align="center">
+  <img src = "screenshots/saved.png" width=800>
 </p>
 
 Also here the used API does not support saving posts, so I used here Firebase firestore to upload the id of the post and user id then return them if needed.
@@ -140,18 +131,12 @@ Also here the used API does not support saving posts, so I used here Firebase fi
 ```
 ## profile
 The registered user can modify his info and his picture, and he can show the posts he created and delete them if he wants, and he can also log out of the application.
+ </br>
+<p align="center">
+  <img src = "screenshots/profile.png" width=800 >
 
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.33.47_iphone12black_portrait" width=350>
-</p>
+  </br>
 
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.33.47_iphone12black_portrait" width=350>
-</p>
-
-<p >
-  <img src = "Simulator Screen Shot - iPhone 11 - 2022-01-06 at 22.34.02_iphone12black_portrait" width=350>
-</p>
 
 ## used libraries
  
