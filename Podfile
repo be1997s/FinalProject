@@ -8,5 +8,14 @@ target 'FinalProject' do
   # Pods for FinalProject
 pod 'Alamofire', '~> 5.5'
     pod 'SwiftyJSON', '~> 4.0'
+pod 'NVActivityIndicatorView'
+pod 'CleanyModal'
+pod 'SPIndicator'
+pod 'Firebase/Auth'
+pod 'Firebase/Firestore'
+pod 'Firebase/Storage'
+pod 'IQKeyboardManagerSwift'
+pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
 
 end
+

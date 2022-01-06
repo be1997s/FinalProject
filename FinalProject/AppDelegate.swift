@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             for font_name in UIFont.fontNames(forFamilyName: name){
             }
         }
+        FirebaseApp.configure()
+        IQKeyboardManager.shared.enable = true
+
         return true
     }
 
