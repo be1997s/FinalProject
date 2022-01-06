@@ -148,6 +148,8 @@ The registered user can modify his info and his picture, and he can show the pos
 * <a href="https://github.com/ninjaprox/NVActivityIndicatorView">NVActivityIndicatorView</a> For loading animations.</br>
 * <a href="https://github.com/MengTo/Spring">Spring</a> For animation.</br>
 * <a href="https://firebase.google.com/">Firebase Services</a> For cloud storage.</br>
+* illustrations are from <a href="https://icons8.com/illustrations">icons8</a>.</br>
+
 
 ## Acknowledgments
 
